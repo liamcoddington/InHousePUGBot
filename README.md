@@ -6,8 +6,8 @@ This is a Discord Bot using Node.js & Discord.js (11.6.4)
 ## What's Missing
 
  - "data" Folder containing 2 files
-  - "lobbies.json" File containing a list of all game lobbies (Potentially changed in the future)
-  - "players.json" File containing a list of all registered players
+   - "lobbies.json" File containing a list of all game lobbies (Potentially changed in the future)
+   - "players.json" File containing a list of all registered players
  - "token.json" File containing the unique discord bot token
 
 
