@@ -3,12 +3,38 @@
 This is a Discord Bot using Node.js & Discord.js (11.6.4)
 
 
+
+## Commonly Used Terms
+
+In-house: An invite-only colletive of people
+
+PUG (Pick Up Game): A game with teams that are assigned randomly to the people that are present
+
+MMR (Match Making Rating): A rating each player has that is one of the main factors the bot uses to balance teams
+
+
+
+
+
+
+
+
 ## What's Missing
 
  - "data" Folder containing 2 files
-   - "lobbies.json" File containing a list of all game lobbies (Potentially changed in the future)
-   - "players.json" File containing a list of all registered players
- - "token.json" File containing the unique discord bot token
+   - lobbies.json
+     - File that contains a list of all game lobbies
+     - Potentially changed/removed in the future
+   - players.json
+     - File that contains a list of all registered players
+
+ - token.json
+   - File that contains the unique discord token that needs to be private (it's like a stream key)
+
+
+
+
+
 
 
 ## Design
@@ -17,11 +43,23 @@ An explaination of how each of the elements of the bot works.
 
 ### Lobby
 
+
+
+
 ### Player
+
+
 
 ### Match Making
 
-### Rating (MMR)
+
+
+
+### MMR
+
+
+
+#### How it works
 
 
 
