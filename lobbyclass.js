@@ -389,7 +389,6 @@ class Lobby {
     }
 
     createGame(playerList) {
-
         let allPlayersAvailable = true;
         if (this.gameList.length > 0) {
             for (let game in this.gameList) {
